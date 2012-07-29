@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PDepend>
+  <Packages>
+    <Package name="BEAR.app\Aspect">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/Users/shuhei/Documents/web/testproject/App/Aspect/Transaction.php">App_Aspect_Transaction</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+global</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="BEAR.app\Db">
+      <Stats>
+        <TotalClasses>2</TotalClasses>
+        <ConcreteClasses>2</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>0.5</I>
+        <D>0.5</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/Users/shuhei/Documents/web/testproject/App/Db.php">App_Db</Class>
+        <Class sourceFile="/Users/shuhei/Documents/web/testproject/App/Form/_untitled.php">App_Form_Untitled</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+global</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>BEAR.app\Ro</Package>
+      </UsedBy>
+    </Package>
+    <Package name="Bear.demo\Form">
+      <Stats>
+        <TotalClasses>4</TotalClasses>
+        <ConcreteClasses>4</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/Users/shuhei/Documents/web/testproject/App/Form/Renderer/Andoroid.php">App_Form_Renderer_Iphone</Class>
+        <Class sourceFile="/Users/shuhei/Documents/web/testproject/App/Form/Renderer/Default.php">App_Form_Renderer_Default</Class>
+        <Class sourceFile="/Users/shuhei/Documents/web/testproject/App/Form/Renderer/Iphone.php">App_Form_Renderer_Android</Class>
+        <Class sourceFile="/Users/shuhei/Documents/web/testproject/App/Form/Renderer/Mobile.php">App_Form_Renderer_Mobile</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+global</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="BEAR.app\Main">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/Users/shuhei/Documents/web/testproject/App/Main.php">App_Main</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+global</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="BEAR.app\Page">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>0</ConcreteClasses>
+        <AbstractClasses>1</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>3</Ce>
+        <A>1</A>
+        <I>1</I>
+        <D>1</D>
+      </Stats>
+      <ConcreteClasses/>
+      <AbstractClasses>
+        <Class sourceFile="/Users/shuhei/Documents/web/testproject/App/Page.php">App_Page</Class>
+      </AbstractClasses>
+      <DependsUpon>
+        <Package>+core</Package>
+        <Package>+global</Package>
+        <Package>BEAR.app\Session</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="BEAR.app\Resource">
+      <Stats>
+        <TotalClasses>1</TotalClasses>
+        <ConcreteClasses>1</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/Users/shuhei/Documents/web/testproject/App/Resource/Execute/App.php">App_Resource_Execute_App</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+global</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="BEAR.app\Ro">
+      <Stats>
+        <TotalClasses>4</TotalClasses>
+        <ConcreteClasses>4</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/Users/shuhei/Documents/web/testproject/App/Ro.php">App_Ro</Class>
+        <Class sourceFile="/Users/shuhei/Documents/web/testproject/App/Ro/Test/User.php">App_Ro_Test_User</Class>
+        <Class sourceFile="/Users/shuhei/Documents/web/testproject/App/Ro/Test/User/List.php">App_Ro_Test_User_List</Class>
+        <Class sourceFile="/Users/shuhei/Documents/web/testproject/App/Ro/_untitiled.php">App_Ro_Untitled</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+global</Package>
+        <Package>BEAR.app\Db</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+    <Package name="BEAR.app\Session">
+      <Stats>
+        <TotalClasses>2</TotalClasses>
+        <ConcreteClasses>2</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>1</Ca>
+        <Ce>1</Ce>
+        <A>0</A>
+        <I>0.5</I>
+        <D>0.5</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/Users/shuhei/Documents/web/testproject/App/Session.php">App_Session</Class>
+        <Class sourceFile="/Users/shuhei/Documents/web/testproject/App/Session/Exception.php">App_Session_Exception</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+global</Package>
+      </DependsUpon>
+      <UsedBy>
+        <Package>BEAR.app\Page</Package>
+      </UsedBy>
+    </Package>
+  </Packages>
+  <Cycles/>
+</PDepend>

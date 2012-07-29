@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="BEAR.app" tests="1" assertions="2" failures="0" errors="0" time="0.011920">
+    <testsuite name="Test_Ro_Test_User_Test" file="/Users/shuhei/Documents/web/testproject/tests/Resource/_sampleResourceTest.php" fullPackage="Test.Ro.Test.User" category="BEAR" tests="1" assertions="2" failures="0" errors="0" time="0.011920">
+      <testcase name="testReadId1" class="Test_Ro_Test_User_Test" file="/Users/shuhei/Documents/web/testproject/tests/Resource/_sampleResourceTest.php" line="51" assertions="2" time="0.011920"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pmd version="1.3.3" timestamp="2012-07-30T01:49:53+09:00">
+  <file name="/Users/shuhei/Documents/web/testproject/App/Aspect/Transaction.php">
+    <violation beginline="39" endline="39" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $db. Configured minimum length is 3.
+    </violation>
+  </file>
+  <file name="/Users/shuhei/Documents/web/testproject/App/Db.php">
+    <violation beginline="41" endline="41" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $db. Configured minimum length is 3.
+    </violation>
+  </file>
+  <file name="/Users/shuhei/Documents/web/testproject/App/Form/Renderer/Mobile.php">
+    <violation beginline="33" endline="33" rule="UnusedPrivateField" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedprivatefield" priority="3">
+      Avoid unused private fields such as '$_headerTemplate'.
+    </violation>
+    <violation beginline="40" endline="40" rule="UnusedPrivateField" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedprivatefield" priority="3">
+      Avoid unused private fields such as '$_elementTemplate'.
+    </violation>
+    <violation beginline="46" endline="46" rule="UnusedPrivateField" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedprivatefield" priority="3">
+      Avoid unused private fields such as '$_formTemplate'.
+    </violation>
+    <violation beginline="53" endline="53" rule="UnusedPrivateField" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedprivatefield" priority="3">
+      Avoid unused private fields such as '$_openFieldsetTemplate'.
+    </violation>
+    <violation beginline="61" endline="61" rule="UnusedPrivateField" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedprivatefield" priority="3">
+      Avoid unused private fields such as '$_openHiddenFieldsetTemplate'.
+    </violation>
+    <violation beginline="68" endline="68" rule="UnusedPrivateField" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedprivatefield" priority="3">
+      Avoid unused private fields such as '$_closeFieldsetTemplate'.
+    </violation>
+    <violation beginline="75" endline="76" rule="UnusedPrivateField" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedprivatefield" priority="3">
+      Avoid unused private fields such as '$_requiredNoteTemplate'.
+    </violation>
+  </file>
+  <file name="/Users/shuhei/Documents/web/testproject/App/Page.php">
+    <violation beginline="71" endline="71" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $e. Configured minimum length is 3.
+    </violation>
+  </file>
+  <file name="/Users/shuhei/Documents/web/testproject/App/Ro/Test/User.php">
+    <violation beginline="55" endline="55" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $id. Configured minimum length is 3.
+    </violation>
+  </file>
+  <file name="/Users/shuhei/Documents/web/testproject/App/output/_untitiled.php">
+    <violation beginline="22" endline="22" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$options'.
+    </violation>
+  </file>
+  <file name="/Users/shuhei/Documents/web/testproject/App/smarty/plugins/untitiledblock.php">
+    <violation beginline="26" endline="26" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$params'.
+    </violation>
+    <violation beginline="26" endline="26" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$smarty'.
+    </violation>
+    <violation beginline="26" endline="26" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$repeat'.
+    </violation>
+  </file>
+  <file name="/Users/shuhei/Documents/web/testproject/App/smarty/plugins/untitledmodfier.php">
+    <violation beginline="25" endline="25" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$string'.
+    </violation>
+    <violation beginline="25" endline="25" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$opt'.
+    </violation>
+    <violation beginline="27" endline="27" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$result'.
+    </violation>
+  </file>
+</pmd>
