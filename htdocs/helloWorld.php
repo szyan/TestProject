@@ -44,7 +44,7 @@ class Page_HelloWorld extends App_Page
      */
     public function onInit(array $args)
     {
-        $this->set('greeting', 'hello world');
+        $this->set('greeting', 'hello BEAR world');
     }
 
     /**
