@@ -59,7 +59,7 @@ class Test_Ro_Test_User_Test extends \PHPUnit_Framework_TestCase
         $this->assertSame(200, $ro->getCode());
         $body = $ro->getBody();
         //$expected = "サンデー";
-        $expected = "BEAR";
+        //$expected = "BEAR";
         $this->assertSame($expected, $body['name']);
     }
 }
